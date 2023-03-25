@@ -74,8 +74,8 @@ nav {
   text-align: center;
 }
 
-.title h2{
-    font-size: 4vh;
+.title h2 {
+  font-size: 4vh;
 }
 
 .titlespan:after {
@@ -139,13 +139,9 @@ strong {
   margin-top: 1%;
 }
 
-#contaier-carrier {
+#container-carrier {
   align-items: center;
-  padding-left: 5%;
-}
-
-.carrer-forms {
-  padding: 1% 1% 1% 1%;
+  /*  padding-left: 5%;*/
 }
 
 .file-up {
@@ -191,7 +187,7 @@ footer {
 }
 
 footer h4 {
-  font-size: 50px;
+  font-size: 3vh;
 }
 
 footer i {
@@ -223,7 +219,7 @@ footer i:hover {
 }
 
 /* Hide/rearrange for smaller screens */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .carasoul-caption {
     font-size: 5%;
   }
@@ -231,6 +227,10 @@ footer i:hover {
   .nav-logo {
     height: 30px;
     width: 30px;
+  }
+
+  .title {
+    margin-left: 37%;
   }
 }
 @media (max-width: 375px) {
@@ -243,6 +243,10 @@ footer i:hover {
   .nav-logo {
     height: 10px;
     width: 10px;
+  }
+
+  .title {
+    margin-left: 35%;
   }
 }
 
@@ -259,10 +263,6 @@ footer i:hover {
     margin-right: 3%;
     color: black;
     text-align: center;
-  }
-
-  footer h4 {
-    font-size: 25px;
   }
 
   .carasoul-caption {
